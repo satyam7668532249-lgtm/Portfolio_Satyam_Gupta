@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Satyam Gupta — Java Developer & Full-Stack Developer portfolio">
+  <title>Satyam Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="galaxy" aria-hidden="true"></canvas>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="cursor-star" aria-hidden="true">✦</div>
+
+  <header class="nav">
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="hero-copy reveal">
+        <div class="small-label"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
+        <h1>Hi, I'm<br><span>Satyam Gupta.</span></h1>
+        <p class="role">Java Developer <b>•</b> Full-Stack Developer <b>•</b> Backend Developer</p>
+        <p class="lead">
+          Java Developer with hands-on skills in Core Java, Spring Boot and
+          backend application development, backed by a strong understanding
+          of OOPs, JDBC, SQL and problem-solving.
+        </p>
+        <div class="hero-signal reveal delay-1">
+          <span class="signal-dot"></span>
+          <span>JAVA • BACKEND • FULL-STACK</span>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="#projects">See my work <span>↗</span></a>
+          <a class="button" href="#contact">Let's talk</a>
+          <a class="icon-link" href="https://github.com/satyam7668532249-lgtm" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a class="icon-link" href="https://www.linkedin.com/in/satyam-gupta-6b3b01245" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal delay-1">
+        <div class="photo-ring"></div>
+        <div class="photo-orbit orbit-a"></div>
+        <div class="photo-orbit orbit-b"></div>
+        <div class="spark s1">✦</div><div class="spark s2">✧</div><div class="spark s3">✦</div>
+        <img src="profile.jpg" alt="Portrait of Satyam Gupta">
+      </div>
+    </section>
+
+    <section id="about" class="section section-pad split">
+      <div class="section-title reveal">
+        <span>01</span>
+        <h2>About me</h2>
+      </div>
+      <div class="content reveal">
+        <p class="big-copy">
+          I am a Computer Science graduate from Vikrant University with
+          hands-on experience in Core Java, Spring Boot and full-stack web
+          development.
+        </p>
+        <p>
+          My interests include backend application development, REST API
+          design and full-stack development with React and Node.js. I have
+          hands-on knowledge of Java, JDBC, SQL, Data Structures &amp;
+          Algorithms and Database Management Systems, with a focus on
+          building secure, reliable applications and learning continuously.
+        </p>
+        <div class="mini-note">“Learn. Build. Improve.”</div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-pad">
+      <div class="section-title reveal">
+        <span>02</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="tools-row reveal">
+        <a class="tool-orb" href="https://openjdk.org/" target="_blank" rel="noopener" aria-label="Java">
+          <span class="orb"><img src="https://cdn.simpleicons.org/openjdk/ffffff" alt=""></span><b>Java</b>
+        </a>
+        <a class="tool-orb" href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener" aria-label="Spring Boot">
+          <span class="orb"><img src="https://cdn.simpleicons.org/springboot/ffffff" alt=""></span><b>Spring Boot</b>
+        </a>
+        <a class="tool-orb" href="https://react.dev/" target="_blank" rel="noopener" aria-label="React">
+          <span class="orb"><img src="https://cdn.simpleicons.org/react/ffffff" alt=""></span><b>React</b>
+        </a>
+        <a class="tool-orb" href="https://nodejs.org/" target="_blank" rel="noopener" aria-label="Node.js">
+          <span class="orb"><img src="https://cdn.simpleicons.org/nodedotjs/ffffff" alt=""></span><b>Node.js</b>
+        </a>
+        <a class="tool-orb" href="https://www.mysql.com/" target="_blank" rel="noopener" aria-label="MySQL">
+          <span class="orb"><img src="https://cdn.simpleicons.org/mysql/ffffff" alt=""></span><b>MySQL</b>
+        </a>
+        <a class="tool-orb" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener" aria-label="JavaScript">
+          <span class="orb"><img src="https://cdn.simpleicons.org/javascript/ffffff" alt=""></span><b>JavaScript</b>
+        </a>
+        <a class="tool-orb" href="https://git-scm.com/" target="_blank" rel="noopener" aria-label="Git">
+          <span class="orb"><img src="https://cdn.simpleicons.org/git/ffffff" alt=""></span><b>Git</b>
+        </a>
+        <a class="tool-orb" href="https://github.com/satyam7668532249-lgtm" target="_blank" rel="noopener" aria-label="GitHub">
+          <span class="orb"><img src="https://cdn.simpleicons.org/github/ffffff" alt=""></span><b>GitHub</b>
+        </a>
+      </div>
+
+      <div class="secondary-skills reveal">
+        <a class="tool-orb compact" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener" aria-label="HTML5">
+          <span class="orb"><img src="https://cdn.simpleicons.org/html5/ffffff" alt=""></span><b>HTML5</b>
+        </a>
+        <a class="tool-orb compact" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener" aria-label="CSS">
+          <span class="orb"><img src="https://cdn.simpleicons.org/css/ffffff" alt=""></span><b>CSS</b>
+        </a>
+        <a class="tool-orb compact" href="https://getbootstrap.com/" target="_blank" rel="noopener" aria-label="Bootstrap">
+          <span class="orb"><img src="https://cdn.simpleicons.org/bootstrap/ffffff" alt=""></span><b>Bootstrap</b>
+        </a>
+        <a class="tool-orb compact" href="https://www.mongodb.com/" target="_blank" rel="noopener" aria-label="MongoDB">
+          <span class="orb"><img src="https://cdn.simpleicons.org/mongodb/ffffff" alt=""></span><b>MongoDB</b>
+        </a>
+        <a class="tool-orb compact" href="https://www.postman.com/" target="_blank" rel="noopener" aria-label="Postman">
+          <span class="orb"><img src="https://cdn.simpleicons.org/postman/ffffff" alt=""></span><b>Postman</b>
+        </a>
+        <a class="tool-orb compact" href="https://www.eclipse.org/ide/" target="_blank" rel="noopener" aria-label="Eclipse IDE">
+          <span class="orb"><img src="https://cdn.simpleicons.org/eclipseide/ffffff" alt=""></span><b>Eclipse</b>
+        </a>
+        <a class="tool-orb compact" href="https://maven.apache.org/" target="_blank" rel="noopener" aria-label="Apache Maven">
+          <span class="orb"><img src="https://cdn.simpleicons.org/apachemaven/ffffff" alt=""></span><b>Maven</b>
+        </a>
+        <a class="tool-orb compact" href="https://jwt.io/" target="_blank" rel="noopener" aria-label="JSON Web Tokens">
+          <span class="orb"><img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" alt=""></span><b>JWT</b>
+        </a>
+        <span>DSA</span>
+        <span>DBMS</span>
+        <span>OOPs</span>
+        <span>REST APIs</span>
+        <span>JDBC</span>
+        <span>Servlets &amp; JSP</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-pad">
+      <div class="section-title reveal">
+        <span>03</span>
+        <h2>Selected projects</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project reveal">
+          <div class="project-number">01</div>
+          <div>
+            <h3>Delphi Trade</h3>
+            <p>Full-stack trading platform for managing trading activity and user data, with JWT-based signup, login and protected routes, plus buy/sell orders, holdings, positions, order history and a portfolio dashboard backed by RESTful APIs.</p>
+            <div class="tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>JWT</span></div>
+          </div>
+          <a href="https://github.com/satyam7668532249-lgtm/Delphi_Trade" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">02</div>
+          <div>
+            <h3>Inventory Management System <em style="font-style:normal;color:#777784;font-size:.8rem;">(in progress)</em></h3>
+            <p>Full-stack inventory platform with JWT-based signup, login and protected routes, covering products, categories, suppliers, purchases, sales and a dashboard, connected to MySQL through RESTful APIs.</p>
+            <div class="tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MySQL</span><span>JWT</span></div>
+          </div>
+          <a href="https://github.com/satyam7668532249-lgtm/Inventory_management_system" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section section-pad split">
+      <div class="section-title reveal">
+        <span>04</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="content reveal">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="time">Feb 2026 — Aug 2026</div>
+          <h3>Certified Industrial Training · CDAC Noida</h3>
+          <ul>
+            <li>Completed industrial training in Advanced Java Application Development.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-pad split">
+      <div class="section-title reveal">
+        <span>05</span>
+        <h2>Education</h2>
+      </div>
+      <div class="content reveal">
+        <div class="edu"><b>Vikrant University</b><span>B.Tech, Computer Science &amp; Engineering · CGPA 7.4/10 · 2024</span></div>
+        <div class="edu"><b>Sahara Public Hr. Sec. School</b><span>Class 12th · 63.6% · 2020</span></div>
+        <div class="edu"><b>Indo Carrier Higher Secondary School</b><span>Class 10th · 78.4% · 2018</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-pad contact">
+      <div class="contact-box reveal">
+        <span class="small-label"><i></i> HAVE A ROLE IN MIND?</span>
+        <h2>Let's build something<br><em>useful.</em></h2>
+        <p>I'm open to entry-level opportunities in Java development, backend and full-stack engineering roles.</p>
+        <a class="button primary" href="mailto:Satyam7668532249@gmail.com">Satyam7668532249@gmail.com ↗</a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/satyam-gupta-6b3b01245" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/satyam7668532249-lgtm" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="Satyam-Gupta-Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>SG.</span>
+    <small>© 2026 Satyam Gupta</small>
+    <small>Java • Backend • Full-Stack • Learning</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
